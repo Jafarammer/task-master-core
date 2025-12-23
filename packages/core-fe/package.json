@@ -1,0 +1,27 @@
+{
+  "name": "@task-master/core-fe",
+  "version": "1.0.0",
+  "private": false,
+  "description": "core package fe task master",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepare": "pnpm build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.1",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.1",
+    "axios": "^1.13.2",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
